@@ -6,7 +6,7 @@
 ## makeCacheMatrix will store a matrix, and its inverse the first time it is calculated
 ## using cacheSolve.
 ##
-## x is a matrix whiche will later be used to find its inverse.
+## x is a matrix which will later be used to find its inverse.
 
 makeCacheMatrix <- function(x = matrix()){
   z <- NULL                             # We don't know the inverse, so initialize the value as null
